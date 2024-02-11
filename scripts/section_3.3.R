@@ -27,7 +27,9 @@ hpa.brain<-hpa %>%
   distinct(gene_name) %>%   
   pull(gene_name)
 #analysis and visualisation of HPA data#
-#create a vector with the biomarkers we are interested in#
+
+
+####STEP2: create a vector with the biomarkers we are interested in--####
 biom<-c("NRGN","SNAP25", "SYT1", "GAP43", "VLDLR", "SYNPO", "SYP")
 #create the first graph showing the expression profile by cell type#
 gA<-hpa %>%   
