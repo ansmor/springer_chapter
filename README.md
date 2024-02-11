@@ -1,4 +1,4 @@
-# Material for Chapter 20 - Methods in Molecular Biology
+# Material for Chapter 20 - Book: Biomarkers for Alzheimer’s Disease Drug Development
 
 ## Purpose
 This page provides the material necessary to complete the protocol described <br>
