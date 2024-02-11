@@ -24,7 +24,7 @@ The data used in the protocol can be found in the [data] (data) directory
 ## Scripts
 The scripts used in the protocol can be found in the [scripts] directory:
 <ol>
-  <li>script <strong><em>section 3.3</em></strong> [Blood-Based Biomarker Expression in the Brain]([scripts/section_3.3](https://github.com/ansmor/springer_chapter/blob/main/scripts/section_3.3)) </li>
+  <li>script <strong><em>section 3.3</em></strong> [Blood-Based Biomarker Expression in the Brain](https://github.com/ansmor/springer_chapter/blob/main/scripts/section_3.3) </li>
   <li>script <strong><em>section 3.4</em></strong> [Functional Enrichment Analysis](scripts/section_3.4)</li>
   <li>script <strong><em>section 3.5</em></strong> [Network analysis](scripts/section_3.5)</li>
   <li>script <strong><em>section 3.5.1</em></strong> [Network analysis - Style](scripts/section_3.5.1)</li>
