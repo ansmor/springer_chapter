@@ -70,7 +70,7 @@ upload_GMT_file(gmtfile = "GeneSetsGOALL.sel.gmt")
 # [1] "gp__xOQr_REfT_llE"
 
 
-enr<-gprofiler2::gost(query=biom, organism="gp__xOQr_REfT_llE", significant=TRUE,                       user_threshold=0.05, evcodes=TRUE,
+enr<-gprofiler2::gost(query=biom, organism="gp__xOQr_REfT_llE", significant=TRUE,user_threshold=0.05, evcodes=TRUE,
       exclude_iea = FALSE, custom_bg = hpa.brain, correction_method="fdr")
 class(enr) #enr is a list
 #element of this list can be visualised as follows
@@ -129,6 +129,5 @@ g3<-dfenr %>%
   theme(plot.title.position = 'plot',plot.subtitle = element_text(size=10))
 #create a final graph
 summary.graph<-ggpubr::ggarrange(g1,g2,g3,nrow=3,ncol=1)
-annotate_figure(summary.graph, top = text_grob("gProfileR results",                                                color = "black", face = "bold", size = 12), 
-                bottom = text_grob("Legend:dark red dashed line= median;
-                                   light red dashed line= mean", color = "black",                                   hjust = 1, x = 1, face = "italic", size = 8))
+annotate_figure(summary.graph, top = text_grob("gProfileR results",color = "black", face = "bold", size = 12), 
+                bottom = text_grob("Legend:dark red dashed line= median; light red dashed line= mean", color = "black",hjust = 1, x = 1, face = "italic", size = 8))
