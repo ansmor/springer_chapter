@@ -17,10 +17,6 @@ This repository can be cloned using following command <br>
 ```
 git clone https://github.com/ansmor/springer_chapter
 ```
-
-## Data
-The data used in the protocol can be found in the [data](data) directory
-
 ## Scripts
 The scripts used in the protocol can be found in the [scripts](scripts) directory:<br>
 
