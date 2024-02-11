@@ -1,18 +1,32 @@
 # Material for Springer Nature Methods
 
 ## Purpose
-This page provides all the material necessary to complete the protocol described in chapter ___.
-
-[insert citation]
+This page provides the material necessary to complete the protocol described <br>
+in <strong>'In Silico Models to Validate Novel Blood-Based Biomarkers'</strong> (<em>chapter 20 </em>) in the book <br>
+><strong>Biomarkers for Alzheimer’s Disease Drug Development</strong><br>
+Methods in Molecular Biology, vol. 2785, Robert Perneczky (ed.) <br>
+https://doi.org/10.1007/978-1-0716-3774-6_20
 
 ## Getting started
 
 ### Prerequisites
+The code was written in R, version >3.5
 
 ### Installation
+This repository can be cloned using following command <br>
+```
+git clone https://github.com/ansmor/springer_chapter
+```
 
 ## Data
-To illustrate the protocol, we used data provided by [insert citation]
+The data used in the protocol can be found in the [data] (data) directory
 
-## Protocol
-The detailled steps are found in chapter ___ from [insert citation]
+## Scripts
+The scripts used in the protocol can be found in the [scripts] directory:
+<ol>
+  <li>script <strong><em>section 3.3</em></strong> [Blood-Based Biomarker Expression in the Brain](scripts/section_3.3) </li>
+  <li>script <strong><em>section 3.4</em></strong> [Functional Enrichment Analysis](scripts/section_3.4)</li>
+  <li>script <strong><em>section 3.5</em></strong> [Network analysis](scripts/section_3.5)</li>
+  <li>script <strong><em>section 3.5.1</em></strong> [Network analysis - Style](scripts/section_3.5.1)</li>
+  <li>script <strong><em>section 3.5.3</em></strong> [Network analysis - Clustering into Biological Functions](scripts/section_3.5.3)</li>
+</ol>
