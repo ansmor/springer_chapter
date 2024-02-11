@@ -17,6 +17,11 @@ This repository can be cloned using following command <br>
 ```
 git clone https://github.com/ansmor/springer_chapter
 ```
+## Data
+Data used in the protocol can be downloaded from
+- [The Human Protein Atlas](https://www.proteinatlas.org/about/download), for the data named <em>normal_tissue.tsv</em> in section 3.3
+- [Human MSigDB](https://www.gsea-msigdb.org/gsea/msigdb/collections.jsp), for the data named <em>c5.go.v2023.1.Hs.symbols.gmt</em> in section 3.4
+
 ## Scripts
 The scripts used in the protocol can be found in the [scripts](scripts) directory:<br>
 
