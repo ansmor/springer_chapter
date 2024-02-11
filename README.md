@@ -26,9 +26,9 @@ Data used in the protocol can be downloaded from
 ## Scripts
 The scripts used in the protocol can be found in the [scripts](scripts) directory:<br>
 
-- script for <strong><em>section 2.3</em></strong> [R packages](scripts/section_2.3)<br>
-- script for <strong><em>section 3.3</em></strong> [Blood-Based Biomarker Expression in the Brain](scripts/section_3.3)<br>
-- script for <strong><em>section 3.4</em></strong> [Functional Enrichment Analysis](scripts/section_3.4)<br>
-- script for <strong><em>section 3.5</em></strong> [Network analysis](scripts/section_3.5)<br>
-- script for <strong><em>section 3.5.1</em></strong> [Network analysis - Style](scripts/section_3.5.1)<br>
-- script for <strong><em>section 3.5.3</em></strong> [Network analysis - Clustering into Biological Functions](scripts/section_3.5.3)<br>
+- script for <strong><em>section 2.3</em></strong> [R packages](scripts/section_2.3.R)<br>
+- script for <strong><em>section 3.3</em></strong> [Blood-Based Biomarker Expression in the Brain](scripts/section_3.3.R)<br>
+- script for <strong><em>section 3.4</em></strong> [Functional Enrichment Analysis](scripts/section_3.4.R)<br>
+- script for <strong><em>section 3.5</em></strong> [Network analysis](scripts/section_3.5.R)<br>
+- script for <strong><em>section 3.5.1</em></strong> [Network analysis - Style](scripts/section_3.5.1.R)<br>
+- script for <strong><em>section 3.5.3</em></strong> [Network analysis - Clustering into Biological Functions](scripts/section_3.5.3.R)<br>
